@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="FRO - Ajax 2" />
+    <meta name="description" content="FRO - Ajax 2" />
+    <meta name="author" content="Nigel Fijnheer" />
+
+
+    <title>Ajax 2</title>
+
+</head>
+
+<body>
+
+<script src="ajax.js"></script>
+
+<div id = "vraag">
+  <h3>BMI Calculator</h3><br>
+
+      <form id="input">
+          <label>Vul je gewicht in (in kg): <input type="text" name="gewicht" size="20" id="gewicht"/></label><br>
+          <label>Vul je lengte in (in cm):<input type="text" name="lengte_cm" size="20" id="lengte"/></label><br>
+      </form>
+    <input type="button" value="Bereken BMI" id="bereken"/>
+</div>
+<div id = "resultaat"></div>
+
+
+<script>
+    let bereken = document.getElementById('bereken');
+    let lengte = document.getElementById('lengte');
+    let gewicht = document.getElementById('gewicht');
+    let resultaat = document.getElementById('resultaat');
+    let input = document.getElementById('input');
+    input.addEventListener('click', function() {
+        resultaat.style.border = "";
+        resultaat.innerHTML = "";
+    })
+    bereken.addEventListener('click', function() {
+        gewichtInput = gewicht.value;
+        lengteInput = lengte.value;
+        ajax(gewichtInput, lengteInput);
+        resultaat.style.border = "solid #000000";
+    })
+</script>
+
+</body>
+</html>
