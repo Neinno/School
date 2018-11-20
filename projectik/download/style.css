@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body {
+	margin: 0px;
+	background-color: black;
+	background-image: url(pic/wallpaper.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Raleway';font-size: 22px;
+	color: white;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.button {
+  background-color: #000000;
+  border: 0px #000000;
+  color: white;
+	width: 200px;
+	height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  float: left;
+	font-family: 'Raleway';font-size: 16px;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+.button:hover {
+  background-color: #0E0D0D;
+}
+
+p.tekst {
+	color: White;
+	text-align: center;
+	font-family: 'Raleway';font-size: 16px;
+}
+
+
+#blocksidebar {
+	margin:-10px;
+	width: 150px;
+	height: 300px;
+}
+
+#buttonblock {
+	width: 150px;
+	margin-top: 0px;
+	height: auto;
+}
+
+
+
+#sidebar {
+	background-color: #000000;
+	opacity: 0.5;
+	width: 200px;
+	height: 100%;
+	max-height: 1000px;
+	margin-left: 150px;
+	margin-right: auto;
+
+}
+
+#name {
+	position: absolute;
+	height: 200px;
+	width: 500px;
+	margin-left: 500px;
+	margin-top: -300px;
+}
+
+p.header {
+	color: White;
+	text-align: center;
+	font-family: 'Raleway';font-size: 40px;
+	}
+
+#logo {
+	background-image: url(pic/logo.jpg);
+	background-size: cover;
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 25px;
+	margin-top: -200px;
+	border: 1px Solid White;
+	border-radius: 100px;
+}
+
+#content {
+	height: 400px;
+	width: 800px;
+	margin-left: 400px;
+	margin-top: -300px;
+}
+
+#link1 {
+	float:left;
+	background-image: url("pic/foto1.jpg");
+	background-size: cover;
+	height:175px;
+	width:250px;
+	margin-top: -150px;
+	margin-left: 25px;
+	box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.5);
+}
+
+#link2 {
+	float:left;
+	background-image: url("pic/foto2.jpg");
+	background-size: cover;
+	height:175px;
+	width:250px;
+	margin-top: -150px;
+	margin-left: 25px;
+	box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.5);
+}
+
+#link3 {
+	float:left;
+	background-image: url("pic/foto3.jpg");
+	background-size: cover;
+	height:175px;
+	width:250px;
+	margin-top: -175px;
+	margin-left: 575px;
+	box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.5);
+}
